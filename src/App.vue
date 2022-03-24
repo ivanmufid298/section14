@@ -1,19 +1,18 @@
-<template >
+<template>
   <div id="app">
     <TodoForm></TodoForm>
   </div>
 </template>
 
 <script>
-import TodoForm from './components/TodoForm.vue';
+import TodoForm from "./components/TodoForm.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    TodoForm
-  },  
- 
-}
+    TodoForm,
+  },
+};
 </script>
 
 <style>
@@ -28,11 +27,10 @@ export default {
   margin-top: 60px;
 }
 .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        h1 {
-        padding-top: 40px;
-        }
-
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1 {
+  padding-top: 40px;
+}
 </style>
